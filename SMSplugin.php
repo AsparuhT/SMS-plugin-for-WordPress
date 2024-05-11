@@ -1,9 +1,8 @@
 <?php
-session_start();
 /*
 
     Plugin Name: SMS Plugin
-    Description: A plugin that provides an easy way to set up SMS sending functionality for a website using your Twilio account. It allows for general SMS sending triggered by WooCommerce events, as well as one-time passcode (OTP) verification.
+    Description: A plugin that provides an easy way to set up SMS sending functionality for a website using your Twilio account. It allows for general SMS sending, or SMS notifications triggered by WooCommerce events, as well as one-time passcode (OTP) verification.
     Version: 1.0
     Author: Asparuh Tenev
     Author URI: https://atenev.com

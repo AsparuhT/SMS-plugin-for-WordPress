@@ -3,7 +3,7 @@
 <div class="container">
 
             <header>
-                <h1>SMS Section<span> a product of <a href="https://www.rekinvest.com" target="blank">RekInvest</a></span></h1>
+                <h1>SMS Section<span></span></h1>
             </header>
 
 

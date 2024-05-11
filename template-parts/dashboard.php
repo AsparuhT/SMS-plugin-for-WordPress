@@ -6,7 +6,7 @@
         <div class="container">
 
             <header>
-                <h1>SMS Plugin<span> by <a href="https://www.rekinvest.com" target="blank">RekInvest</a></span></h1>
+                <h1>SMS Plugin<span></span></h1>
 
                 <div class="message-box" id="top-banner">
                     <div class="header-banner__img">
