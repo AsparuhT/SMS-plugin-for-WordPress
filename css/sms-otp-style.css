@@ -1,0 +1,350 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-color: #f9f9f9;
+    color: #363636;
+    /*  typograpthy-dark */
+}
+
+.container {
+    max-width: 1280px;
+    margin: 40px;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 22px;
+}
+
+
+header h1 span {
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.message-box {
+    border-radius: 20px;
+    /* min-height: 150px; */
+    padding: 20px;
+    width: 100%;
+    background-color: #fff;
+
+    -webkit-box-shadow: 0px 4px 7px 4px rgba(237,232,237,1);
+    -moz-box-shadow: 0px 4px 7px 4px rgba(237,232,237,1);
+    box-shadow: 0px 4px 7px 4px rgba(237,232,237,1);
+}
+
+#top-banner {
+    display: flex;
+}
+
+.header-banner__img {
+    /* border: 1px solid black; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+#phone-img {
+    height: 100px;
+    width: 100px;
+}
+
+.header-banner__text {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 25px 38px 25px 30px;
+    line-height: 1.5;
+}
+
+
+
+
+
+.twilio-banner {
+    display: flex;
+    padding: 0;
+    padding-right: 30px;
+}
+
+#twilio-img {
+    height: 150px;
+    width: 150px;
+}
+
+.twilio-banner__text {
+    font-size: 16px;
+    font-weight: 300;
+    padding: 25px;
+    line-height: 1.5;
+}
+
+.twilio-banner__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    /* padding-right: 20px; */
+}
+
+#call-to-action-btn {
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(249, 249, 249);
+    border-radius: 20px;
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+}
+
+#call-to-action-btn a {
+    color: firebrick 
+}
+
+
+a {
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.main-col {
+    width: clamp(250px, 50%, 620px);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+    padding: 10px 30px 40px 30px;
+}
+
+.woo-b {
+    color: purple;
+}
+
+.main-col-btn {
+    font-size: 17px;
+    font-weight: 700;
+    background-color: rgb(249, 249, 249);
+    border-radius: 20px;
+    height: 40px;
+    width: 160px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+
+/* ***********************************  SMS SECTION  ***********************************  */
+
+
+.first-section {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+    padding: 0;
+}
+
+.first-section h2 {
+    text-align: center;
+}
+
+
+
+#account-details-form {
+    margin-top: 40px;
+}
+
+.label {
+    color: #595858;
+    font-weight: bold;
+    font-size: 14px;
+    padding-bottom: 14px;
+}
+
+input[type="text"] {
+    min-width: 350px;
+    min-height: 40px;
+    margin-bottom: 20px;
+}
+
+.form-submit-btn {
+    font-size: 14px;
+    font-weight: 700;
+    background-color: #337ab7;
+    color: #fff;
+    border-radius: 20px;
+    height: 35px;
+    width: 140px;
+    cursor: pointer;
+    margin-top: 16px;
+    outline: none; /* Add this line to remove the outline */
+}
+
+.form-submit-btn:hover {
+    background-color: #286090;
+    border-color: #204d74;
+}
+
+.form-submit-btn:focus {
+    background-color: #204d74;
+    border-color: #122b40;
+    outline: none; /* Remove the outline when the button is focused */
+}
+
+.updated {
+    border-radius: 20px;
+}
+
+#test-section {
+    text-align: center;
+}
+
+#test-sms-body {
+    min-width: 350px;
+    min-height: 140px;
+}
+
+
+
+
+
+.second-section {
+    display: flex;
+
+}
+
+.woo-forms,
+.woo-text {
+    width: 50%;
+    padding: 0px 20px 20px 20px;
+}
+
+.woo-labels {
+    padding-bottom: 0;
+    font-size: 16px;
+}
+
+.woo-checkbox {
+    margin-top: 16px;
+    min-height: 50px;
+}
+
+#woo_textarea_client,
+#woo_textarea_owner {
+    min-width: 350px;
+    height: 60px;
+}
+
+#checkbox-blur {
+    display: hidden;
+}
+
+
+
+
+
+
+
+/* input[type='checkbox'] {
+    width: 18px;
+    height: 18px;
+    accent-color: green;
+} */
+
+
+
+.a-btn {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-top: 8px;
+    outline: none; /* Add this line to remove the outline */
+}
+
+
+.client-h3 {
+    color: #286090;
+}
+
+
+
+.p-text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+
+
+.woo-checkbox {
+    margin-top: 16px;
+    min-height: 50px;
+}
+
+
+#twilio-red a {
+    color: #a00;
+}
+
+
+@media (max-width: 1100px) {
+
+    .first-section,
+    .second-section {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .woo-forms,
+    .woo-text {
+        min-width: 90%;
+    }
+
+    .woo-text {
+        border-top: 1px solid lightgray;
+    }
+
+    /* Dashboard */
+
+    .main-col {
+        width: 90%;
+    }
+
+    #top-banner,
+    .twilio-banner {
+        flex-direction: column;
+        /* width: 90%; */
+        align-items: center;
+    }
+
+    .twilio-banner {
+        padding-bottom: 30px;
+    }
+
+    .twilio-banner__img {
+        margin-bottom: -20px;
+    }
+
+
+    input[type="text"],
+    #woo_textarea_client,
+    #woo_textarea_owner,
+    #test-sms-body {
+        min-width: 90%;
+    }
+
+
+  }
