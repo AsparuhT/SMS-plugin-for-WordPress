@@ -2,7 +2,7 @@
 
 ## Description:
 This plugin seamlessly integrates Twilio's robust SMS capabilities with your WooCommerce store, enabling automated SMS notifications for both the customers and the store owner upon 
-the major WooCommerce order events. This Improves the store's communication and enhance customer service by sending timely order verification and confirmation messages directly to their phones.
+ WooCommerce order events. This Improves the store's communication and enhance customer service by sending timely order verification and confirmation messages directly to their phones.
 
 ## Key Features:
 
@@ -20,3 +20,6 @@ the major WooCommerce order events. This Improves the store's communication and 
 2. Upload it in your WordPress website
 3. Install and activate it
 
+## Requirements:
+
+Once the plugin is installed, follow the link in its dashboard, to create a trail Twillio account. Then, add its details in the plugin's SMS section and start using it.
